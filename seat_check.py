@@ -2,7 +2,7 @@
 ICAI Seat Monitor — Production Script
 =======================================
 City   : CHENNAI
-Course : AICITSS - Advanced Information Technology
+Course : Advanced (ICITSS) MCS Course
 
 Behaviour:
   • Seats found       → Pushover alert → disable this workflow (stops auto-runs)
@@ -31,7 +31,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 URL         = "https://www.icaionlineregistration.org/launchbatchdetail.aspx"
 REGION_VAL  = "4"          # Southern
 POU_LABEL   = "CHENNAI"
-COURSE_NAME = "AICITSS - Advanced Information Technology"
+COURSE_NAME = "Advanced (ICITSS) MCS Course"
 
 # ── Credentials ────────────────────────────────────────────────────────────────
 PUSHOVER_USER  = os.environ.get("PUSHOVER_USER", "")
